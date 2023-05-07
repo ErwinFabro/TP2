@@ -128,12 +128,18 @@ ul {
 
 }
 
+
 /* boton lupa */
 
 .iconlupa{
-
     height: 25px;
- 
+}
+
+/* boton lupa */
+
+.iconlupa:hover{
+    height: 25px;
+    filter: drop-shadow(0.1em 0.1em 0.3em #222);
 }
 
 /* boton shop */
@@ -152,6 +158,13 @@ ul {
 
 .shop{
     height: 25px;
+}
+
+/* boton shop */
+
+.shop:hover{
+    height: 25px;
+    filter: drop-shadow(0.1em 0.1em 0.3em #222);
 }
 
 /* linea */
