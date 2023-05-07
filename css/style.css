@@ -29,6 +29,7 @@ a {
 a:hover {
     text-decoration: underline 0.2em solid black;
     
+    
 }
 
 
@@ -281,8 +282,8 @@ li {
 .text{
     margin-left: 4em;
     width: 420px;
-    margin-bottom: 120px;
-    font-family: 1em;
+    margin-bottom: 200px;
+    font-size: 1.2em;
     color: grey;
 }
 
@@ -315,31 +316,34 @@ li {
 .sideA{
     border-right: 0.5em solid black; 
     font-size: 0.6em;
-    width: 1.5em;
-    padding-top:2.7em;
-    padding-bottom: 2.7em;
+    width: 2em;
+    padding-top:4em;
+    padding-bottom: 2em;
 }
+
 
 /* caja dos */
 
-.sideB{
-    border-right:0.5em solid #a08d7c;
-    padding-top: 3.4em;
-    padding-bottom: 4.6em;
-    font-size: 0.6em;
-    width: 1.5em;
-}
-
-/* caja tres */
-
-.sideC{
+.sideA{
     border-right:0.5em solid #b39f8d;
-    padding-top: 4.6em;
-    padding-bottom: 5.8em;
+    padding-top: 4em;
+    padding-bottom: 2em;
     font-size: 0.6em;
-    width: 1.5em;
+    width: 2em;
+    font-family: 'Roboto', 
 }
 
+
+/* caja uno */
+
+.sideB{
+    border-right: 0.5em solid black; 
+    font-size: 0.6em;
+    width: 2em;
+    padding-top:4em;
+    padding-bottom: 2em;
+    font-family: 'Roboto', 
+}
 
 
 /* boton Shop now prueba */
@@ -389,7 +393,7 @@ li {
     text-align: center;
     color: black;
     margin-left: 4.5em;
-    margin-bottom: 10em;
+    margin-bottom: 9em;
     margin-top:10em;
     border: 2px solid black;
     padding-left:32px;
