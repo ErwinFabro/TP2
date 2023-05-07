@@ -9,7 +9,7 @@ body {
         white 61%,
         #d6bda6 45%        
     );
-
+    overflow: hidden; /* Hide scrollbars */
 }
  
 header {
@@ -47,8 +47,8 @@ ul {
 
 .shop2 .notif {
   position: absolute;
-  top: 0px;
-  right: 15px;
+  top: 0.8rem;
+  right: 1.5rem;
   padding: 0.45em 0.65em;
   border-radius: 50%;
   border: 0.1em solid black;
@@ -59,6 +59,7 @@ ul {
   align-items: center;
   justify-content: center;
   display: flex;
+  font-size: 0.5em;
 }
 
 /* menu izquierdo */
@@ -124,7 +125,7 @@ ul {
 .lupa {
     color: black;
     text-decoration: none;
-    padding: 15px 26px;
+    padding: 0.938rem 1.625rem;
     position: relative;
 
 }
@@ -174,6 +175,7 @@ ul {
     border-right: 1.5px solid #a08d7c;
     height: 1.7em;
     padding-left: 0.5em;
+    padding-right: 1.5em;
 }
 
 /* boton sign up */
@@ -243,9 +245,9 @@ ul {
 
 .container{
     background-color:   transparent;
-    margin-top: 0px;
+    margin-top:22em;
     width: 58%;
-    height: 100%;
+    height: 40%;
     display:flex;
     flex-direction: column;
     position: fixed;
@@ -259,7 +261,7 @@ ul {
     margin-left: 0.5em;
     font-size: 130px;
     line-height: 0.1em;
-    letter-spacing: -8px;   
+    letter-spacing: -1px;   
 }
 
 /* boton de shop now */
@@ -280,6 +282,7 @@ ul {
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1.5px;
+    font-weight: bold;
 }
 
 .boton:hover{
