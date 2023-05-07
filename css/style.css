@@ -344,16 +344,16 @@ ul {
     border-right: 0.5em solid black; 
     font-size: 0.6em;
     width: 1.5em;
-    padding-top: 4.6em;
-    padding-bottom: 1.5em;
+    padding-top:2.7em;
+    padding-bottom: 2.7em;
 }
 
 /* caja dos */
 
 .sideB{
     border-right:0.5em solid #a08d7c;
-    padding-top: 4.6em;
-    padding-bottom: 1.5em;
+    padding-top: 3.4em;
+    padding-bottom: 4.6em;
     font-size: 0.6em;
     width: 1.5em;
 }
@@ -363,7 +363,7 @@ ul {
 .sideC{
     border-right:0.5em solid #b39f8d;
     padding-top: 4.6em;
-    padding-bottom: 1.5em;
+    padding-bottom: 5.8em;
     font-size: 0.6em;
     width: 1.5em;
 }
