@@ -355,6 +355,7 @@ li {
     position: absolute;
     opacity: 0;
     top: 0;
+    margin-left: 0.3em;
 
     background-color: red;
   }
