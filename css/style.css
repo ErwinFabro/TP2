@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(
+        to right,
+        white 61%,
+        #d6bda6 45%        
+    );
+
+}
+ 
+header {
+    background-color: transparent;
+    padding: 3em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding-right: 10em;
+}
+
+a:hover {
+    text-decoration: underline 0.2em solid black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+
+.boton {
+    cursor: pointer;
+}
+
+
+.totalheader {
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+}
+
+.shop2 {
+  color: black;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.shop2 .notif {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  padding: 0.45em 0.65em;
+  border-radius: 50%;
+  border: 0.1em solid black;
+  background: white;
+  color: black;
+  width: 0.1em;
+  height: 0.5em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.menu1 {
+    background-color: transparent;
+    align-items: center;
+    color: #000;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+    text-decoration: none;
+    font-size: 15px;
+    list-style: none;
+    font-weight: bold;
+
+    color: black;
+}
+
+.menu2 {
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 15em;
+    
+}
+
+.menu2:hover {
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo{
+    justify-content: flex-start;
+    font-size: 39px;
+    margin-left: 40px;
+    font-weight: 900;
+    letter-spacing: -4px;
+    padding-right: 3em;
+
+}
+
+.logo:hover{
+    font-size: 39px;
+
+    margin-left: 40px;
+    font-weight: 900;
+    letter-spacing: -4px;
+    text-decoration: underline;
+}
+
+.iconlupa{
+    height: 25px;
+}
+
+.shop{
+    height: 25px;
+}
+
+.line{
+    border-right: 1.5px solid #a08d7c;
+    height: 1.7em;
+    padding-left: 0.5em;
+}
+
+.sing-up{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    border: 0.2em solid black;
+    padding-left: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.sing-up:hover{
+    text-decoration: none;
+    background-color: #000;
+    color: white;
+    border: 0.2em solid black;
+    padding-left: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sing-in {
+    text-decoration: none;
+    color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center; 
+}
+
+.sing-in:hover {
+    text-decoration: none;
+    color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center; 
+    text-decoration: underline 0.2em solid black;
+     
+}
+
+.container{
+    background-color:   transparent;
+    margin-top: 0px;
+    width: 58%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+}
+
+.title{
+    padding-top: 1em;
+    margin-left: 0.5em;
+    font-size: 130px;
+    line-height: 0.1em;
+    letter-spacing: -8px;   
+}
+
+.boton{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-left: 4.5em;
+    margin-bottom: 10em;
+    margin-top:10em;
+    border: 2px solid black;
+    padding-left:32px;
+    width: 96px;
+    padding-right: 35px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.boton:hover{
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-left: 4.5em;
+    margin: bottom 10em;;
+    margin-top:10em;
+    border: 2px solid black;
+    padding-left:32px;
+    width: 96px;
+    padding-right: 35px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+/* texto */
+
+.text{
+    margin-left: 4em;
+    width: 420px;
+    margin-bottom: 120px;
+    font-family: 1em;
+    color: grey;
+}
+
+
+
+/* modelo */
+
+.model{
+    position: absolute;
+    margin-left: 39%;
+    margin-bottom: -10%;
+    width: 60em;
+    z-index: -1;
+}
+
+
+/* barra de la derecha */
+
+.sideFloat{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 350px;
+    margin-right: 5rem;
+}
+
+/* caja uno */
+
+.sideA{
+    border-right: 0.5em solid black; 
+    font-size: 0.6em;
+    width: 1.5em;
+    padding-top: 4.6em;
+    padding-bottom: 1.5em;
+}
+
+/* caja dos */
+
+.sideB{
+    border-right:0.5em solid #a08d7c;
+    padding-top: 4.6em;
+    padding-bottom: 1.5em;
+    font-size: 0.6em;
+    width: 1.5em;
+}
+
+/* caja tres */
+
+.sideC{
+    border-right:0.5em solid #b39f8d;
+    padding-top: 4.6em;
+    padding-bottom: 1.5em;
+    font-size: 0.6em;
+    width: 1.5em;
+}
+
+
+
