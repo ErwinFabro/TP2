@@ -25,7 +25,9 @@ a {
 
 a:hover {
     text-decoration: underline 0.2em solid black;
+    
 }
+
 
 ul {
     display: flex;
@@ -69,7 +71,6 @@ ul {
     color: #000;
     display: flex;
     font-family: 'Roboto', sans-serif;
-
     text-decoration: none;
     font-size: 0.9375rem;
     list-style: none;
@@ -112,12 +113,14 @@ ul {
 
 .logo:hover{
     font-size: 39px;
-
     margin-left: 40px;
     font-weight: 900;
     letter-spacing: -4px;
     text-decoration: underline;
     cursor: pointer;
+
+    
+
 }
 
 /* boton lupa */
@@ -264,45 +267,7 @@ ul {
     letter-spacing: -1px;   
 }
 
-/* boton de shop now */
 
-.boton{
-    text-decoration: none;
-    text-align: center;
-    color: black;
-    margin-left: 4.5em;
-    margin-bottom: 10em;
-    margin-top:10em;
-    border: 2px solid black;
-    padding-left:32px;
-    width: 96px;
-    padding-right: 35px;
-    padding-top: 0.875rem;
-    padding-bottom: 0.9375rem;
-    font-size: 0.9375rem;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.09375rem;
-    font-weight: bold;
-}
-
-.boton:hover{
-    background-color: black;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    margin-left: 4.5em;
-    margin: bottom 10em;
-    margin-top:10em;
-    border: 2px solid black;
-    padding-left:32px;
-    width: 96px;
-    padding-right: 35px;
-    padding-top: 0.875rem;
-    padding-bottom: 0.9375rem;
-    font-size: 0.9375rem;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.09375rem;
-}
 
 /* texto */
 
@@ -369,4 +334,66 @@ ul {
 }
 
 
+
+/* boton Shop now prueba */
+
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+
+    background-color: white;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+
+    background-color: red;
+  }
+  
+  .button:hover span {
+    background-color: black;
+    color: white;
+    width: 96px;
+    right: 0px;
+  }
+
+  .button:hover  {
+    background-color: black;
+ 
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    color: white;
+    background-color: #000;
+    
+  }
+
+
+
+.button{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-left: 4.5em;
+    margin-bottom: 10em;
+    margin-top:10em;
+    border: 2px solid black;
+    padding-left:32px;
+    width: 96px;
+    padding-right: 35px;
+    padding-top: 0.875rem;
+    padding-bottom: 0.9375rem;
+    font-size: 0.9375rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.09375rem;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
 
