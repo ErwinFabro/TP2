@@ -116,6 +116,7 @@ ul {
     font-weight: 900;
     letter-spacing: -4px;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /* boton lupa */
