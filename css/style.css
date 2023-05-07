@@ -70,7 +70,7 @@ li {
 
 /* menu izquierdo */
 
-.menu1 {
+.menuUno {
     align-items: center;
     color: #000;
     display: flex;
@@ -85,7 +85,7 @@ li {
 
 /* menu derecho */
 
-.menu2 {
+.menuDos {
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
