@@ -20,19 +20,21 @@ header {
     padding: 3em 0;
 }
 
-a {
+
+p a {
+    color: #222;
     text-decoration: none;
-    color: #000;
-    
-}
-
-a:hover {
-    text-decoration: underline 0.2em solid black;
-    
-    
-}
-
-
+    background:  no-repeat 0 100%;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 2px;
+    transition: background-size .3s ease;
+  }
+  
+p a:hover, a:focus {
+    background-size: 100% 2px;
+    color: #222
+  }
+ 
 ul {
     display: flex;
     list-style: none;
@@ -50,8 +52,6 @@ li {
     background-color: transparent;
     position: fixed;
 }
-
-
 
 /* notificacion del boton shop */
 
@@ -79,7 +79,7 @@ li {
     color: #000;
     display: flex;
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
+
     font-size: 0.9375rem;
     list-style: none;
     font-weight: bold;
@@ -109,27 +109,31 @@ li {
 
 /* logo */
 
-.logo{
+
+
+
+.logo {
     justify-content: flex-start;
     font-size: 39px;
     margin-left: 40px;
+    margin-right: 117px;
     font-weight: 900;
     letter-spacing: -4px;
-    padding-right: 3em;
+    padding-right: 0em;
+    color: #222;
+    text-decoration: none;
+    background:  no-repeat 0 100%;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 2px;
+    transition: background-size .3s ease;
+  }
+  
+  .logo  .logo:hover, .logo:focus {
+    background-size: 100% 2px;
+    color: #222
+  }
+  
 
-}
-
-.logo:hover{
-    font-size: 39px;
-    margin-left: 40px;
-    font-weight: 900;
-    letter-spacing: -4px;
-    text-decoration: underline;
-    cursor: pointer;
-
-    
-
-}
 
 /* boton lupa */
 
@@ -232,7 +236,7 @@ li {
     padding-left: 2.5rem;
     padding-right: 2rem;
     padding-top: 0.1875rem;
-    padding-bottom: 0.1875rem;
+    padding-bottom: 0.6em;
     font-family: 'Roboto', sans-serif;
     font-size: 0.875rem;
     text-align: center; 
@@ -244,11 +248,11 @@ li {
     padding-left: 2.5rem;
     padding-right: 2rem;
     padding-top: 0.1875rem;
-    padding-bottom: 0.1875rem;
+    padding-bottom: 0.6em;
     font-family: 'Roboto', sans-serif;
     font-size: 0.875rem;
     text-align: center; 
-    text-decoration: underline 0.2em solid black;
+
      
 }
 
@@ -408,4 +412,5 @@ li {
     background-color: white;
     cursor: pointer;
 }
+
 
