@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-
+@media screen and (min-width:1024px){
+   
 *{
     margin: 0;
     padding: 0;
@@ -415,10 +416,7 @@ li {
 
 
 
- @media screen and (min-width:1024px){
-    body{
-        background-color: transparent;
-    }
+ 
 }
 
 /*tablet*/
